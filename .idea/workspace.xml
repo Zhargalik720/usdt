@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f68fd94e-8a5a-48d4-b031-cde2c28824b3" name="Changes" comment="добавлены Healthcheck, Graceful Shutdown" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/go/go1.23.0" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLabMergeRequestFiltersHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPENED&quot;,
+    &quot;assignee&quot;: {
+      &quot;type&quot;: &quot;org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue&quot;,
+      &quot;username&quot;: &quot;Zhargalik720&quot;,
+      &quot;fullname&quot;: &quot;Жаргал Дугаров&quot;
+    }
+  }
+}</component>
+  <component name="GitLabMergeRequestsSettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;first&quot;: &quot;https://gitlab.com/zhora8122750/usdt.git&quot;,
+    &quot;second&quot;: &quot;5444eb57-d106-4302-84f4-fcc980ffa41e&quot;
+  }
+}</component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2pA1CIjuHXmEOheC5oIxvd1UFtm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Go Build.go build usdt/cmd.executor": "Run",
+    "Go Build.go build usdt/test.executor": "Run",
+    "Go Build.go build usdt/testclient.executor": "Run",
+    "Go Test.TestGrantexAPI_GetRates/Timeout in usdt/internal/infrastructure/requestAPI/garantex.executor": "Run",
+    "Go Test.TestUsdtController_GetRates in usdt/internal/modules/controller.executor": "Run",
+    "Go Test.TestUsdtController_GetRates/Error in usdt/internal/modules/controller.executor": "Run",
+    "Go Test.TestUsdtService_GetRates/APIError in usdt/internal/modules/service.executor": "Run",
+    "Go Test.TestUsdtStorage_Create in usdt/internal/modules/storage.executor": "Run",
+    "Go Test.TestUsdtStorage_Delete in usdt/internal/modules/storage.executor": "Run",
+    "Go Test.TestUsdtStorage_GetAll in usdt/internal/modules/storage.executor": "Run",
+    "Go Test.TestUsdtStorage_GetById in usdt/internal/modules/storage.executor": "Run",
+    "Go Test.TestUsdtStorage_GetById/NotFound in usdt/internal/modules/storage.executor": "Run",
+    "Go Test.TestUsdtStorage_GetByPair in usdt/internal/modules/storage.executor": "Run",
+    "Go Test.TestUsdtStorage_GetByPair/NotFound in usdt/internal/modules/storage.executor": "Run",
+    "Go Test.TestUsdtStorage_Update in usdt/internal/modules/storage.executor": "Run",
+    "Go Test.go test usdt/internal/infrastructure/requestAPI/garantex.executor": "Coverage",
+    "Go Test.go test usdt/internal/modules/controller.executor": "Coverage",
+    "Go Test.go test usdt/internal/modules/service.executor": "Coverage",
+    "Go Test.go test usdt/internal/modules/storage.executor": "Coverage",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/home/duga",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "go.vgo"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/internal/proto/usdt_proto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build usdt/testclient">
+    <configuration name="go build usdt/testclient" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="usdt" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="usdt/testclient" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/testclient/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGrantexAPI_GetRates/Timeout in usdt/internal/infrastructure/requestAPI/garantex" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="usdt" />
+      <working_directory value="$PROJECT_DIR$/internal/infrastructure/requestAPI/garantex" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="usdt/internal/infrastructure/requestAPI/garantex" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestGrantexAPI_GetRates\E$/^\QTimeout\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestUsdtStorage_GetByPair/NotFound in usdt/internal/modules/storage" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="usdt" />
+      <working_directory value="$PROJECT_DIR$/internal/modules/storage" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="usdt/internal/modules/storage" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestUsdtStorage_GetByPair\E$/^\QNotFound\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test usdt/internal/infrastructure/requestAPI/garantex" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="usdt" />
+      <working_directory value="$PROJECT_DIR$/internal/infrastructure/requestAPI/garantex" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="usdt/internal/infrastructure/requestAPI/garantex" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test usdt/internal/modules/storage" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="usdt" />
+      <working_directory value="$PROJECT_DIR$/internal/modules/storage" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="usdt/internal/modules/storage" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build usdt/testclient" />
+        <item itemvalue="Go Test.go test usdt/internal/infrastructure/requestAPI/garantex" />
+        <item itemvalue="Go Test.TestGrantexAPI_GetRates/Timeout in usdt/internal/infrastructure/requestAPI/garantex" />
+        <item itemvalue="Go Test.go test usdt/internal/modules/storage" />
+        <item itemvalue="Go Test.TestUsdtStorage_GetByPair/NotFound in usdt/internal/modules/storage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-5df93f7ad4aa-df9ad98b711f-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-242.23339.24" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-GO-242.23339.24" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="добавлен логер, конфиг" />
+    <MESSAGE value="добавлен usdt.proto" />
+    <MESSAGE value="добавлен db, миграции" />
+    <MESSAGE value="добавлена основная логика сервиса" />
+    <MESSAGE value="добавлены тесты" />
+    <MESSAGE value="добавлены Healthcheck, Graceful Shutdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены Healthcheck, Graceful Shutdown" />
+  </component>
+  <component name="VgoProject">
+    <auto-vendoring-mode>false</auto-vendoring-mode>
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/usdt$go_test_usdt_internal_modules_storage.out" NAME="go test usdt/internal/modules/storage Coverage Results" MODIFIED="1732884786231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/usdt$go_test_usdt_internal_modules_controller.out" NAME="go test usdt/internal/modules/controller Coverage Results" MODIFIED="1732881997628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/usdt$go_test_usdt_internal_infrastructure_requestAPI_garantex.out" NAME="go test usdt/internal/infrastructure/requestAPI/garantex Coverage Results" MODIFIED="1732885915455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/usdt$go_test_usdt_internal_modules_service.out" NAME="go test usdt/internal/modules/service Coverage Results" MODIFIED="1732882383829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

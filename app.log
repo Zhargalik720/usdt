@@ -1,0 +1,12 @@
+{"level":"info","ts":"2024-11-22T19:40:59.830+0300","logger":"usdt-rate-service","msg":"info uroven","error":"jfj"}
+{"level":"error","ts":"2024-11-22T19:40:59.831+0300","logger":"usdt-rate-service","msg":"error uroven","error":"jfj"}
+{"level":"info","ts":"2024-11-22T19:40:59.831+0300","logger":"usdt-rate-service","msg":"This is an info log"}
+{"level":"error","ts":"2024-11-22T19:40:59.831+0300","logger":"usdt-rate-service","msg":"This is an error log"}
+{"level":"info","ts":"2024-11-22T19:41:08.949+0300","logger":"usdt-rate-service","msg":"info uroven","error":"jfj"}
+{"level":"error","ts":"2024-11-22T19:41:08.949+0300","logger":"usdt-rate-service","msg":"error uroven","error":"jfj"}
+{"level":"info","ts":"2024-11-22T19:41:08.950+0300","logger":"usdt-rate-service","msg":"This is an info log"}
+{"level":"error","ts":"2024-11-22T19:41:08.950+0300","logger":"usdt-rate-service","msg":"This is an error log"}
+{"level":"info","ts":"2024-11-23T13:38:01.420+0300","logger":"usdt-rate-service","msg":"info uroven","error":"jfj"}
+{"level":"error","ts":"2024-11-23T13:38:01.420+0300","logger":"usdt-rate-service","msg":"error uroven","error":"jfj"}
+{"level":"info","ts":"2024-11-23T13:38:01.420+0300","logger":"usdt-rate-service","msg":"This is an info log"}
+{"level":"error","ts":"2024-11-23T13:38:01.420+0300","logger":"usdt-rate-service","msg":"This is an error log"}

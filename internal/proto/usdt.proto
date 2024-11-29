@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package usdt;
+
+option go_package = "./usdt_proto;usdt_proto";
+
+service AuthService {
+  rpc GetRates (GetRatesRequest) returns (GetRatesResponse);
+  rpc HealthCheck (HealthCheckRequest) returns (HealthCheckResponse);
+}
+
+message GetRatesRequest {
+  string target_currency = 1;
+}
+
+message GetRatesResponse {
+  CurrencyRate rate = 1;
+}
+
+message CurrencyRate {
+  string pair = 1;
+  double ask_price = 2;
+  double bid_price = 3;
+  string timestamp = 4;
+}
+message HealthCheckRequest {}
+
+message HealthCheckResponse {
+  string status = 1;
+}

@@ -1,0 +1,32 @@
+version: '3.7'
+
+services:
+  db:
+    image: postgres:14.4-alpine
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_DATABASE}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - usdt_network
+  app:
+    build: .
+    environment:
+      - .env
+    depends_on:
+      - db
+    ports:
+      - "50051:50051"
+    networks:
+      - usdt_network
+networks:
+  usdt_network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+    driver: local
