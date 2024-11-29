@@ -10,3 +10,22 @@
 {"level":"error","ts":"2024-11-23T13:38:01.420+0300","logger":"usdt-rate-service","msg":"error uroven","error":"jfj"}
 {"level":"info","ts":"2024-11-23T13:38:01.420+0300","logger":"usdt-rate-service","msg":"This is an info log"}
 {"level":"error","ts":"2024-11-23T13:38:01.420+0300","logger":"usdt-rate-service","msg":"This is an error log"}
+{"level":"error","ts":"2024-11-29T17:35:32.106+0300","logger":"usdt-rate-service","msg":"Ошибка при подключении к базе данных (migrate): dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","ts":"2024-11-29T17:35:32.113+0300","logger":"usdt-rate-service","msg":"USDT service started on port: 50051"}
+{"level":"info","ts":"2024-11-29T17:35:41.072+0300","logger":"usdt-rate-service","msg":"Получен сигнал завершения работы. Начинаем graceful shutdown..."}
+{"level":"info","ts":"2024-11-29T17:35:41.072+0300","logger":"usdt-rate-service","msg":"Остановка gRPC сервера..."}
+{"level":"info","ts":"2024-11-29T17:35:41.073+0300","logger":"usdt-rate-service","msg":"gRPC сервер остановлен."}
+{"level":"info","ts":"2024-11-29T17:35:41.073+0300","logger":"usdt-rate-service","msg":"Закрытие соединения с базой данных..."}
+{"level":"error","ts":"2024-11-29T17:35:54.583+0300","logger":"usdt-rate-service","msg":"Ошибка при подключении к базе данных (migrate): dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","ts":"2024-11-29T17:35:54.584+0300","logger":"usdt-rate-service","msg":"USDT service started on port: 50051"}
+{"level":"info","ts":"2024-11-29T17:35:58.165+0300","logger":"usdt-rate-service","msg":"Получен сигнал завершения работы. Начинаем graceful shutdown..."}
+{"level":"info","ts":"2024-11-29T17:35:58.165+0300","logger":"usdt-rate-service","msg":"Остановка gRPC сервера..."}
+{"level":"info","ts":"2024-11-29T17:35:58.165+0300","logger":"usdt-rate-service","msg":"gRPC сервер остановлен."}
+{"level":"info","ts":"2024-11-29T17:35:58.165+0300","logger":"usdt-rate-service","msg":"Закрытие соединения с базой данных..."}
+{"level":"error","ts":"2024-11-29T17:36:27.514+0300","logger":"usdt-rate-service","msg":"Ошибка при подключении к базе данных (migrate): dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"error","ts":"2024-11-29T17:37:24.994+0300","logger":"usdt-rate-service","msg":"Ошибка при подключении к базе данных (migrate): dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","ts":"2024-11-29T17:37:24.995+0300","logger":"usdt-rate-service","msg":"USDT service started on port: 50051"}
+{"level":"info","ts":"2024-11-29T17:37:47.952+0300","logger":"usdt-rate-service","msg":"Получен сигнал завершения работы. Начинаем graceful shutdown..."}
+{"level":"info","ts":"2024-11-29T17:37:47.952+0300","logger":"usdt-rate-service","msg":"Остановка gRPC сервера..."}
+{"level":"info","ts":"2024-11-29T17:37:47.952+0300","logger":"usdt-rate-service","msg":"gRPC сервер остановлен."}
+{"level":"info","ts":"2024-11-29T17:37:47.952+0300","logger":"usdt-rate-service","msg":"Закрытие соединения с базой данных..."}

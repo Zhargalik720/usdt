@@ -12,15 +12,10 @@ const (
 )
 
 type Config struct {
-	AppName    string
-	LogLvl     string
-	Port       string
-	Db         DB
-	dbUser     string
-	dbPassword string
-	dbHost     string
-	dbPort     string
-	dbDatabase string
+	AppName string
+	LogLvl  string
+	Port    string
+	Db      DB
 }
 
 type DB struct {
@@ -30,6 +25,14 @@ type DB struct {
 	Port     string
 	Database string
 }
+
+var (
+	dbUser     string
+	dbPassword string
+	dbHost     string
+	dbPort     string
+	dbDatabase string
+)
 
 func NewConfig() Config {
 	// Флаги командной строки
@@ -41,14 +44,9 @@ func NewConfig() Config {
 	flag.Parse()
 
 	return Config{
-		AppName:    getEnvOrDefault(AppName, os.Getenv(AppName)),
-		LogLvl:     getEnvOrDefault(LogLvl, os.Getenv(LogLvl)),
-		Port:       getEnvOrDefault(Port, os.Getenv(Port)),
-		dbUser:     dbUser,
-		dbPassword: dbPassword,
-		dbHost:     dbHost,
-		dbPort:     dbPort,
-		dbDatabase: dbDatabase,
+		AppName: getEnvOrDefault(AppName, "usdt-rate-service"),
+		LogLvl:  getEnvOrDefault(LogLvl, "info"),
+		Port:    getEnvOrDefault(Port, "50051"),
 		Db: DB{
 			User:     getEnvOrDefault("DB_USER", dbUser),
 			Password: getEnvOrDefault("DB_PASSWORD", dbPassword),
