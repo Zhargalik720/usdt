@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f68fd94e-8a5a-48d4-b031-cde2c28824b3" name="Changes" comment="добавлены Healthcheck, Graceful Shutdown" />
+    <list default="true" id="f68fd94e-8a5a-48d4-b031-cde2c28824b3" name="Changes" comment="добавлены Makefile, README.md">
+      <change afterPath="$PROJECT_DIR$/docker_compose_manager.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage.out" beforeDir="false" afterPath="$PROJECT_DIR$/coverage.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/modules/controller/controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/modules/controller/controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/run.go" beforeDir="false" afterPath="$PROJECT_DIR$/run/run.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +31,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Zhargalik720"
+  }
+}]]></component>
   <component name="GitLabMergeRequestFiltersHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPENED&quot;,
@@ -37,6 +53,12 @@
     &quot;second&quot;: &quot;5444eb57-d106-4302-84f4-fcc980ffa41e&quot;
   }
 }</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Zhargalik720/usdt.git",
+    "accountId": "29bbe5d1-497a-4a07-b882-e1e905aafa51"
+  }
+}]]></component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
@@ -70,6 +92,12 @@
     "Go Test.go test usdt/internal/modules/controller.executor": "Coverage",
     "Go Test.go test usdt/internal/modules/service.executor": "Coverage",
     "Go Test.go test usdt/internal/modules/storage.executor": "Coverage",
+    "Makefile Target.build.executor": "Run",
+    "Makefile Target.docker-compose-down.executor": "Run",
+    "Makefile Target.docker-compose-up.executor": "Run",
+    "Makefile Target.lint.executor": "Run",
+    "Makefile Target.run.executor": "Run",
+    "Makefile Target.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
@@ -81,7 +109,7 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "go.vgo"
+    "settings.editor.selected.configurable": "com.goide.configuration.GoLibrariesConfigurableProvider"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -89,7 +117,7 @@
       <recent name="$PROJECT_DIR$/internal/proto/usdt_proto" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build usdt/testclient">
+  <component name="RunManager" selected="Makefile Target.docker-compose-down">
     <configuration name="go build usdt/testclient" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="usdt" />
       <working_directory value="$PROJECT_DIR$" />
@@ -99,59 +127,41 @@
       <filePath value="$PROJECT_DIR$/testclient/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestGrantexAPI_GetRates/Timeout in usdt/internal/infrastructure/requestAPI/garantex" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="usdt" />
-      <working_directory value="$PROJECT_DIR$/internal/infrastructure/requestAPI/garantex" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="usdt/internal/infrastructure/requestAPI/garantex" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestGrantexAPI_GetRates\E$/^\QTimeout\E$" />
+    <configuration name="docker-compose-down" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="docker-compose-down" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
       <method v="2" />
     </configuration>
-    <configuration name="TestUsdtStorage_GetByPair/NotFound in usdt/internal/modules/storage" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="usdt" />
-      <working_directory value="$PROJECT_DIR$/internal/modules/storage" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="usdt/internal/modules/storage" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestUsdtStorage_GetByPair\E$/^\QNotFound\E$" />
+    <configuration name="docker-compose-up" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="docker-compose-up" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
       <method v="2" />
     </configuration>
-    <configuration name="go test usdt/internal/infrastructure/requestAPI/garantex" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="usdt" />
-      <working_directory value="$PROJECT_DIR$/internal/infrastructure/requestAPI/garantex" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="usdt/internal/infrastructure/requestAPI/garantex" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
+    <configuration name="run" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="run" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
       <method v="2" />
     </configuration>
-    <configuration name="go test usdt/internal/modules/storage" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="usdt" />
-      <working_directory value="$PROJECT_DIR$/internal/modules/storage" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="usdt/internal/modules/storage" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
+    <configuration name="test" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="test" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Makefile Target.docker-compose-down" />
         <item itemvalue="Go Build.go build usdt/testclient" />
-        <item itemvalue="Go Test.go test usdt/internal/infrastructure/requestAPI/garantex" />
-        <item itemvalue="Go Test.TestGrantexAPI_GetRates/Timeout in usdt/internal/infrastructure/requestAPI/garantex" />
-        <item itemvalue="Go Test.go test usdt/internal/modules/storage" />
-        <item itemvalue="Go Test.TestUsdtStorage_GetByPair/NotFound in usdt/internal/modules/storage" />
+        <item itemvalue="Makefile Target.run" />
+        <item itemvalue="Makefile Target.docker-compose-up" />
+        <item itemvalue="Makefile Target.test" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +196,8 @@
     <MESSAGE value="добавлена основная логика сервиса" />
     <MESSAGE value="добавлены тесты" />
     <MESSAGE value="добавлены Healthcheck, Graceful Shutdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлены Healthcheck, Graceful Shutdown" />
+    <MESSAGE value="добавлены Makefile, README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены Makefile, README.md" />
   </component>
   <component name="VgoProject">
     <auto-vendoring-mode>false</auto-vendoring-mode>

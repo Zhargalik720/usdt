@@ -7,14 +7,14 @@ test:
 docker-build:
 	docker build -t usdt-app .
 
-run:
-	docker compose up -d
+run: build
+	./docker_compose_manager.sh
 
 lint:
 	golangci-lint run
 
 docker-compose-up:
-	docker compose up -d
+	./docker_compose_manager.sh
 
 docker-compose-down:
 	docker compose down
